@@ -1,4 +1,4 @@
-console.log("We're learning about objects!");
+/* console.log("We're learning about objects!");
 
 const car = {
     make: "Ford",
@@ -39,4 +39,23 @@ const dad = {
 
 familyMembers = [brother, sister, mom, dad];
 
-console.log(familyMembers);
+console.log(familyMembers); */
+
+const wardrobe = {
+    height: 80,
+    manufacturer: "Killibrew & Sons",
+    contents: ["Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes"],
+    depth: 38,
+    width: 50
+}
+
+console.log(wardrobe.height);
+
+console.log(wardrobe.manufacturer);
+
+console.log(wardrobe.contents);
+
+console.log(wardrobe.depth);
+
+console.log(wardrobe.width);
+
