@@ -1,3 +1,5 @@
+// Lightning Exercise One
+
 /* console.log("We're learning about objects!");
 
 const car = {
@@ -41,6 +43,8 @@ familyMembers = [brother, sister, mom, dad];
 
 console.log(familyMembers); */
 
+// Lightning Exercise Two
+
 /* const wardrobe = {
     height: 80,
     manufacturer: "Killibrew & Sons",
@@ -61,8 +65,9 @@ console.log(wardrobe.width);
 
  */
 
+// Lightning exercise 3
 
-const empireStateBuilding = {
+/* const empireStateBuilding = {
     stories: 103,
     height: 1453,
     address: "350 Fifth Avenue, Manhattan, New York 10118",
@@ -86,4 +91,32 @@ console.log("Construction Date", empireStateBuilding["constructionDate"])
 console.log("Cost", empireStateBuilding["cost"])
 console.log("Owner", empireStateBuilding["owner"])
 console.log("Architect", empireStateBuilding["architect"])
+ */
+
+// Lightning exercise 4
+
+const nashvilleSoftwareSchool = {
+    founded: 2012,
+    director: "John Wark",
+    instructors: {
+        fullTime: ["Jisie", "Brenda", "Steve", "Joe", "Andy"],
+        partTime: ["Zoe", "Nathan"]
+    },
+    address: "500 Interstate Blvd. S"
+}
+const fullTimeInstructors = nashvilleSoftwareSchool.instructors.fullTime
+const partTimeInstructors = nashvilleSoftwareSchool.instructors.partTime
+
+for (let i = 0; i < partTimeInstructors.length; i++) {
+    console.log(partTimeInstructors[i])
+}
+
+for (let i = 0; i < fullTimeInstructors.length; i++) {
+    console.log(fullTimeInstructors[i])
+}
+
+
+console.log(fullTimeInstructors[4])
+console.log(partTimeInstructors[0])
+
 
