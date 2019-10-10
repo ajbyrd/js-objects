@@ -95,7 +95,7 @@ console.log("Architect", empireStateBuilding["architect"])
 
 // Lightning exercise 4
 
-const nashvilleSoftwareSchool = {
+/* const nashvilleSoftwareSchool = {
     founded: 2012,
     director: "John Wark",
     instructors: {
@@ -118,5 +118,41 @@ for (let i = 0; i < fullTimeInstructors.length; i++) {
 
 console.log(fullTimeInstructors[4])
 console.log(partTimeInstructors[0])
+ */
 
+// Practice Exercise 1
+
+const beatles = {
+    albums: ["Abbey Road", "Sgt Peppers Lonely Heart's Club Band", "Revolver", "Magical Mystery Tour", "Something New"],
+    history: {
+        formed: 1960,
+        disbanded: 1970
+    },
+    members: [
+        {
+            name: "George Harrison",
+            birth: 1943,
+            death: 2001
+        },
+        {
+            name: "Paul McCartney",
+            birth: 1942,
+            death: null
+        },
+        {
+            name: "John Lennon",
+            birth: 1940,
+            death: 1980
+        },
+        {
+            name: "Ringo Starr",
+            birth: 1940,
+            death: null
+        }
+    ]
+}
+
+// console.log(`The empire state building is ${empireStateBuilding.height} high with ${empireStateBuilding.stories} stories. The east west length is ${empireStateBuilding.eastWestLength} and the north south length is ${empireStateBuilding.northSouthLength}. It is ${empireStateBuilding.squareFeet} square footage.`)
+
+console.log(`${beatles.members[1].name} was in the Beatles from 1960 to 1970. He was born in ${beatles.members[1].birth}. He contributed heavily to the ${beatles.albums[3]} album.`)
 
