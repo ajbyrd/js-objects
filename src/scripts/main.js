@@ -41,7 +41,7 @@ familyMembers = [brother, sister, mom, dad];
 
 console.log(familyMembers); */
 
-const wardrobe = {
+/* const wardrobe = {
     height: 80,
     manufacturer: "Killibrew & Sons",
     contents: ["Dress shirt", "Jeans", "Suit", "Skirt", "Tennis shoes"],
@@ -58,4 +58,32 @@ console.log(wardrobe.contents);
 console.log(wardrobe.depth);
 
 console.log(wardrobe.width);
+
+ */
+
+
+const empireStateBuilding = {
+    stories: 103,
+    height: 1453,
+    address: "350 Fifth Avenue, Manhattan, New York 10118",
+    squareFeet: 2768591,
+    constructionDate: 1931,
+    cost: 40948900,
+    owner: "Empire State Realty Trust",
+    eastWestLength: 424,
+    northSouthLength: 187,
+    architect: "Shreve, Lamb & Harmon"
+}
+
+console.log("Stories", empireStateBuilding.stories)
+console.log("Height", empireStateBuilding.height)
+console.log("Square Feet", empireStateBuilding.squareFeet)
+console.log("eastWestLength", empireStateBuilding.eastWestLength)
+console.log("northSouthLength", empireStateBuilding.northSouthLength)
+
+console.log("Address", empireStateBuilding["address"])
+console.log("Construction Date", empireStateBuilding["constructionDate"])
+console.log("Cost", empireStateBuilding["cost"])
+console.log("Owner", empireStateBuilding["owner"])
+console.log("Architect", empireStateBuilding["architect"])
 
